@@ -1,0 +1,22 @@
+{
+  "name": "solutionwebapp",
+  "version": "1.0.0",
+  "description": "webapp solution for https://github.com/cinqtechnologies/front-end-angularjs-automate-tasks.git",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Silva, Marco A.",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.6.6",
+    "angular-route": "1.6.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-ng-annotate": "^3.0.0"
+  }
+}

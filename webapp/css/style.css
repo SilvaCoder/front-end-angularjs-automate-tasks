@@ -1,0 +1,50 @@
+.content{
+    display: none;
+}
+
+.warning{
+    display: initial;
+}
+/* WVGA */
+@media only screen 
+and (min-width : 780px)
+and (max-width : 820px) {
+    /* Styles */
+    .content{
+        display: initial;
+    }
+
+    .warning{
+        display: none;
+    }
+
+}
+
+
+/* HD */
+@media only screen
+and (min-width : 1060px)
+and (max-width : 1100px) {
+    /* Styles */
+    .content{
+        display: initial;
+    }
+
+    .warning{
+        display: none;
+    }
+}
+
+/* FULL HD */
+@media only screen
+and (min-width : 1960px)
+and (max-width : 2000px) {
+    /* Styles */
+    .content{
+        display: initial;
+    }
+
+    .warning{
+        display: none;
+    }
+}

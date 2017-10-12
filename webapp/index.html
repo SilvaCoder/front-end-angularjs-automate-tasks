@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>SOLUTION</title>
+
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- AngularJs and ngRoute -->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+
+    <!-- SOLUTION js -->
+    <script src="js/solution.js"></script>    
+    <script src="js/routes.js"></script>  
+    <script src="js/constants.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+
+    </head>
+
+    <body ng-app="solution" ng-controller="solutionCtrl">
+
+        <h5 class="warning">Application only available in WVGA, HD or FullHD</h5>
+
+        <ng-view class="content"></ng-view>
+
+    </body>
+</html>
